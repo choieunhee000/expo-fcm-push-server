@@ -111,6 +111,10 @@ const sendPushNotification = async () => {
       },
     });
 
+    // expo 토큰 발급
+    const pushToken = await Notifications.getExpoPushTokenAsync();
+    setExpoPushToken(pushToken.data);
+
 
 };
 

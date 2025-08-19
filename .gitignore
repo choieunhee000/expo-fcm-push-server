@@ -37,3 +37,11 @@ dist/
 # Firebase sensitive files
 my-app/google-services.json
 my-app/firebaseConfig.js
+my-app/push-test-75bdc-firebase-adminsdk-fbsvc-e740a168b2.json
+fcm/google-services.json
+fcm/push-test-75bdc-firebase-adminsdk-fbsvc-e740a168b2.json
+
+
+# git ignore
+fcm/.gitignore
+my-app/.gitignore
