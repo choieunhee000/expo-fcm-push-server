@@ -35,13 +35,20 @@ dist/
 .idea/
 
 # Firebase sensitive files
-my-app/google-services.json
+# my-app/google-services.json
 my-app/firebaseConfig.js
 my-app/push-test-75bdc-firebase-adminsdk-fbsvc-e740a168b2.json
-fcm/google-services.json
+# fcm/google-services.json
 fcm/push-test-75bdc-firebase-adminsdk-fbsvc-e740a168b2.json
 
 
 # git ignore
 fcm/.gitignore
 my-app/.gitignore
+
+# push-server
+push-server/node_modules/
+push-server/push-test-75bdc-firebase-adminsdk-fbsvc-e740a168b2.json
+push-server/index.js
+push-server/server.js
+push-server/server.js
